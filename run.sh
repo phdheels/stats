@@ -16,5 +16,6 @@
 ### java -jar RepoSense.jar --repos https://github.com/reposense/RepoSense.git
 
 java -jar RepoSense.jar \
-  --repos https://github.com/phdheels/cswk31.git \
-  --period 52w
+  --period 52w \
+  --repos \
+    https://github.com/phdheels/cswk31.git \
