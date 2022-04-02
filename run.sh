@@ -22,3 +22,4 @@ java -jar RepoSense.jar \
 
      https://github.com/phdheels/${repoName}.git \
      https://github.com/phdheels/${repoName}.git \
+     https://github.com/phdheels/${repoName}.git \
