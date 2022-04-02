@@ -15,4 +15,4 @@
 ## Examples of other valid options; For more, please view the user guide
 ### java -jar RepoSense.jar --repos https://github.com/reposense/RepoSense.git
 
-java -jar RepoSense.jar --since 1/1/2019 --repos https://github.com/phdheels/cswk31.git
+java -jar RepoSense.jar --period 52w --repos https://github.com/phdheels/cswk31.git
