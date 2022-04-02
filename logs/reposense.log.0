@@ -1,24 +1,44 @@
-Apr 02, 2022 3:52:08 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 02, 2022 3:56:43 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/phdheels/cswk32.git...
+Apr 02, 2022 3:56:43 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/phdheels/cswk31.git...
-Apr 02, 2022 3:52:08 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 02, 2022 3:56:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/phdheels/cswk31.git to complete...
-Apr 02, 2022 3:52:09 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 02, 2022 3:56:43 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/phdheels/cswk32.git to complete...
+Apr 02, 2022 3:56:43 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/phdheels/cswk31.git completed!
-Apr 02, 2022 3:52:09 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/1] Analyzing https://github.com/phdheels/cswk31.git (main)...
-Apr 02, 2022 3:52:09 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 02, 2022 3:56:43 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/phdheels/cswk32.git completed!
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/2] Analyzing https://github.com/phdheels/cswk31.git (main)...
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/2] Analyzing https://github.com/phdheels/cswk32.git (main)...
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/phdheels/cswk32.git (main) does not contain a standalone config file.
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator updateAuthorList
+INFO: https://github.com/phdheels/cswk32.git (main) has no authors specified, using all authors by default.
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/phdheels/cswk31.git (main) does not contain a standalone config file.
-Apr 02, 2022 3:52:09 PM reposense.report.ReportGenerator updateAuthorList
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator updateAuthorList
 INFO: https://github.com/phdheels/cswk31.git (main) has no authors specified, using all authors by default.
-Apr 02, 2022 3:52:09 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 02, 2022 3:56:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/phdheels/cswk32.git (main)...
+Apr 02, 2022 3:56:43 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/phdheels/cswk31.git (main)...
-Apr 02, 2022 3:52:09 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 02, 2022 3:56:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/phdheels/cswk32.git (main)...
+Apr 02, 2022 3:56:43 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/phdheels/cswk31.git (main)...
-Apr 02, 2022 3:52:09 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 02, 2022 3:56:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/phdheels/cswk32.git (main)...
+Apr 02, 2022 3:56:43 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/phdheels/cswk31.git (main)...
-Apr 02, 2022 3:52:09 PM reposense.report.ReportGenerator analyzeRepo
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/phdheels/cswk32.git (main) completed!
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/phdheels/cswk31.git (main) completed!
-Apr 02, 2022 3:52:09 PM reposense.report.ReportGenerator generateReposReport
+Apr 02, 2022 3:56:43 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/stats/stats/reposense-report
-Apr 02, 2022 3:52:09 PM reposense.RepoSense main
-INFO: Elapsed processing time: 0.65 second(s)
+Apr 02, 2022 3:56:43 PM reposense.RepoSense main
+INFO: Elapsed processing time: 1.33 second(s)
