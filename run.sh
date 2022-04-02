@@ -19,4 +19,4 @@ java -jar RepoSense.jar \
   --period 52w \
   --repos \
     https://github.com/phdheels/cswk31.git \
-    https://github.com/phdheels/cswk33.git \
+    https://github.com/phdheels/cswk33.git \    https://github.com/phdheels/cswk32.git \
