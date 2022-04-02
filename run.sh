@@ -20,3 +20,5 @@ java -jar RepoSense.jar \
   --repos \
     https://github.com/phdheels/cswk31.git \
     https://github.com/phdheels/cswk32.git \
+
+    https://github.com/phdheels/cswk33.git \
