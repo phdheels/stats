@@ -1,11 +1,18 @@
-Apr 02, 2022 3:12:27 PM reposense.parser.CsvParser validateHeader
-INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Repository's Location,  Branch,  File formats,  Ignore Glob List,  Ignore Authors List,  Ignore standalone config,  Ignore Commits List
-Apr 02, 2022 3:12:27 PM reposense.RepoSense main
-WARNING: Unknown column(s) found: Author's Email (./configs/author-config.csv)
-reposense.parser.InvalidHeaderException: Unknown column(s) found: Author's Email (./configs/author-config.csv)
-	at reposense.parser.CsvParser.validateHeader(CsvParser.java:250)
-	at reposense.parser.CsvParser.getHeader(CsvParser.java:134)
-	at reposense.parser.CsvParser.parse(CsvParser.java:82)
-	at reposense.RepoSense.getRepoConfigurations(RepoSense.java:124)
-	at reposense.RepoSense.main(RepoSense.java:62)
-
+Apr 02, 2022 3:17:05 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/phdheels/cswk31.git...
+Apr 02, 2022 3:17:05 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/phdheels/cswk31.git to complete...
+Apr 02, 2022 3:17:05 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/phdheels/cswk31.git completed!
+Apr 02, 2022 3:17:05 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/1] Analyzing https://github.com/phdheels/cswk31.git (main)...
+Apr 02, 2022 3:17:05 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/phdheels/cswk31.git (main) does not contain a standalone config file.
+Apr 02, 2022 3:17:05 PM reposense.report.ReportGenerator updateAuthorList
+INFO: https://github.com/phdheels/cswk31.git (main) has no authors specified, using all authors by default.
+Apr 02, 2022 3:17:05 PM reposense.report.ReportGenerator analyzeRepos
+WARNING: No authors found with commits for https://github.com/phdheels/cswk31.git (main).
+Apr 02, 2022 3:17:05 PM reposense.report.ReportGenerator generateReposReport
+INFO: The report is generated at /home/runner/work/stats/stats/reposense-report
+Apr 02, 2022 3:17:05 PM reposense.RepoSense main
+INFO: Elapsed processing time: 0.67 second(s)
