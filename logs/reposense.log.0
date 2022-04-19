@@ -1,44 +1,44 @@
-Apr 19, 2022 12:41:10 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 19, 2022 12:41:13 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/phdheels/cswk32-34.git...
-Apr 19, 2022 12:41:10 PM reposense.report.RepoCloner spawnCloneProcess
+Apr 19, 2022 12:41:13 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/phdheels/cswk30-32.git...
-Apr 19, 2022 12:41:10 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/phdheels/cswk32-34.git to complete...
-Apr 19, 2022 12:41:10 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 19, 2022 12:41:13 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/phdheels/cswk30-32.git to complete...
-Apr 19, 2022 12:41:11 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/phdheels/cswk32-34.git completed!
-Apr 19, 2022 12:41:11 PM reposense.report.RepoCloner waitForCloneProcess
+Apr 19, 2022 12:41:13 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/phdheels/cswk32-34.git to complete...
+Apr 19, 2022 12:41:14 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/phdheels/cswk30-32.git completed!
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/2] Analyzing https://github.com/phdheels/cswk32-34.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/2] Analyzing https://github.com/phdheels/cswk30-32.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/2] Analyzing https://github.com/phdheels/cswk30-32.git (main)...
+Apr 19, 2022 12:41:14 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/phdheels/cswk32-34.git completed!
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/2] Analyzing https://github.com/phdheels/cswk32-34.git (main)...
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/phdheels/cswk30-32.git (main) does not contain a standalone config file.
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator updateAuthorList
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator updateAuthorList
 INFO: https://github.com/phdheels/cswk30-32.git (main) has no authors specified, using all authors by default.
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator updateRepoConfig
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/phdheels/cswk32-34.git (main) does not contain a standalone config file.
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator updateAuthorList
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator updateAuthorList
 INFO: https://github.com/phdheels/cswk32-34.git (main) has no authors specified, using all authors by default.
-Apr 19, 2022 12:41:11 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 19, 2022 12:41:14 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/phdheels/cswk30-32.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Apr 19, 2022 12:41:14 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/phdheels/cswk32-34.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 19, 2022 12:41:14 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/phdheels/cswk30-32.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Apr 19, 2022 12:41:14 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/phdheels/cswk32-34.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/phdheels/cswk32-34.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Apr 19, 2022 12:41:14 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/phdheels/cswk30-32.git (main)...
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/phdheels/cswk32-34.git (main) completed!
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator analyzeRepo
+Apr 19, 2022 12:41:14 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/phdheels/cswk32-34.git (main)...
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/phdheels/cswk30-32.git (main) completed!
-Apr 19, 2022 12:41:11 PM reposense.report.ReportGenerator generateReposReport
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/phdheels/cswk32-34.git (main) completed!
+Apr 19, 2022 12:41:14 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/stats/stats/reposense-report
-Apr 19, 2022 12:41:11 PM reposense.RepoSense main
-INFO: Elapsed processing time: 0.85 second(s)
+Apr 19, 2022 12:41:14 PM reposense.RepoSense main
+INFO: Elapsed processing time: 1.33 second(s)
